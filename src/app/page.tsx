@@ -106,12 +106,12 @@ export default function Home() {
           className="object-cover"
         />
         <div
-          className="absolute inset-0 opacity-65"
+          className="absolute inset-0 mix-blend-multiply"
           style={{
             backgroundImage:
               "linear-gradient(135deg, #AC2DEB 0%, #5596FF 100%)",
           }}
-        ></div>
+        />
       </div>
 
       {/* ---------------------------- Todo list wrapper --------------------------- */}
