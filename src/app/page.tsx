@@ -106,7 +106,7 @@ export default function Home() {
           className="object-cover"
         />
         <div
-          className="absolute inset-0 mix-blend-multiply"
+          className="absolute inset-0 mix-blend-overlay"
           style={{
             backgroundImage:
               "linear-gradient(135deg, #AC2DEB 0%, #5596FF 100%)",
@@ -122,7 +122,7 @@ export default function Home() {
         </h1>
 
         {/* ----------------------------- New todo input ----------------------------- */}
-        <div className="flex items-center gap-[24px] card py-[20px] px-[24px]">
+        <div className="flex items-center gap-[24px] card py-[20px] px-[24px] shadow-none">
           <div className="w-[24px] h-[24px] rounded-full border border-light-gray shrink-0"></div>
           <input
             type="text"
